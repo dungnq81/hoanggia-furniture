@@ -1,0 +1,8 @@
+.itsec-user-groups-group-tab--settings .itsec-user-groups-group-tab__modules-list {
+  padding-left: 0; }
+.itsec-user-groups-group-tab--settings ul {
+  list-style-type: none; }
+.itsec-user-groups-group-tab--settings legend {
+  font-weight: 600;
+  margin-bottom: 1em;
+  font-size: 1.2em; }

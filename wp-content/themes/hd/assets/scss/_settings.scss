@@ -1,0 +1,54 @@
+
+@import '../../../../../node_modules/foundation-sites/scss/util/util';
+
+// 1. Global
+// ---------
+
+$black: #111;
+$medium-black: #474649;
+$white: #ffffff;
+$background-color: $white;
+$heading-color: $black;
+
+$gray: #dbdbdb;
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+
+$global-color1: #005fb8;
+$global-color2: #e7843e;
+$global-color3: #8b229b;
+$global-red: #ff4e42;
+
+$scrollbar-with: rem-calc(4);
+$global-width-extra: rem-calc(1280);
+$global-width-small: rem-calc(750);
+
+$global-font-size: 100%;
+$global-width: rem-calc(1200);
+$global-medium-width: rem-calc(1140);
+$global-lineheight: 1.5;
+$foundation-palette: (
+	primary: $global-color1,
+	secondary: $global-color3,
+	success: lighten($global-color1, 15),
+	warning: $global-color2,
+	alert: lighten($global-color3, 15),
+);
+
+$primary-color: get-color(primary);
+$success-color: get-color(success);
+$secondary-color: get-color(secondary);
+$warning-color: get-color(warning);
+$alert-color: get-color(alert);
+
+$body-background: $background-color;
+$body-font-color: $black;
+$body-font-size: rem-calc(16);
+$body-font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", 'Ubuntu', "Helvetica Neue", Arial, sans-serif;
+
+$mobile-width: rem-calc(640);
+$desktop-width: rem-calc(1024);
+$xdesktop-width: rem-calc(1200);
+$xxdesktop-width: rem-calc(1440);
+$wp-mobile-width: rem-calc(782);

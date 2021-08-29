@@ -1,0 +1,10 @@
+.itsec-log-modal .components-modal__frame {
+  min-width: 80%;
+  height: 100%; }
+.itsec-log-modal .itsec-log-modal__content {
+  margin: 2em 1em; }
+  .itsec-log-modal .itsec-log-modal__content .itsec-log-raw-details-toggle {
+    display: none; }
+  .itsec-log-modal .itsec-log-modal__content tr:first-child th, .itsec-log-modal .itsec-log-modal__content tr:first-child td {
+    margin-top: 0;
+    padding-top: 0; }

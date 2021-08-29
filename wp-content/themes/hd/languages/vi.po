@@ -1,0 +1,1258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-22 07:21+0000\n"
+"PO-Revision-Date: 2021-03-12 15:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: Tiếng Việt\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6\n"
+"X-Domain: hd"
+
+#. used between list items, there is a space after the comma
+#: includes/func.php:826 includes/func.php:854
+msgid " "
+msgstr ""
+
+#: includes/func.php:685
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#. Time difference between two dates, in days. %s: Number of days
+#: includes/func.php:682
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s ngày"
+msgstr[1] ""
+
+#: includes/widgets/widget_recent_posts.php:91
+msgid "(no title)"
+msgstr "(không tiêu đề)"
+
+#: includes/widgets/widget_banner_carousel.php:347
+#: includes/widgets/__/widget_elementor_posts.php:164
+#: includes/widgets/__/widget_elementor_posts_carousel.php:358
+msgid "--Select category--"
+msgstr "--Chọn danh mục--"
+
+#: includes/classes/class_customize.php:148
+#: includes/classes/class_customize.php:186
+msgid "16:9"
+msgstr ""
+
+#: includes/classes/class_customize.php:145
+#: includes/classes/class_customize.php:183
+msgid "1:1"
+msgstr ""
+
+#: includes/classes/class_customize.php:146
+#: includes/classes/class_customize.php:184
+msgid "3:2"
+msgstr ""
+
+#: includes/classes/class_customize.php:147
+#: includes/classes/class_customize.php:185
+msgid "4:3"
+msgstr ""
+
+#. %s: customize url
+#: includes/func.php:628
+#, php-format
+msgid "<a class=\"_blank\" href=\"%s\">Customize</a>"
+msgstr ""
+
+#. %s: menu url
+#: includes/func.php:623
+#, php-format
+msgid "<a class=\"_blank\" href=\"%s\">Menus</a>"
+msgstr ""
+
+#: includes/widgets/__/__widget_filter_categories.php:16
+msgid "A list of categories"
+msgstr "Danh sách chuyên mục"
+
+#: includes/widgets/__/widget_categories.php:27
+msgid "A list or dropdown of sidebar categories."
+msgstr "Danh sách dropdown của chuyên mục cạnh bên"
+
+#: includes/admin.php:225
+msgid "Activate Elementor"
+msgstr "Kích hoạt Elementor"
+
+#: includes/custom_types/custom_image.php:16
+#: includes/custom_types/custom_video.php:15
+msgid "Add New"
+msgstr "Thêm mới"
+
+#: includes/custom_types/custom_image.php:74
+#: includes/custom_types/custom_video.php:83
+msgid "Add New Category"
+msgstr "Thêm chuyên mục mới"
+
+#: includes/custom_types/custom_image.php:15
+#: includes/custom_types/custom_video.php:14
+#: includes/custom_types/custom_video.php:134
+msgid "Add New Item"
+msgstr "Thêm mới"
+
+#: includes/custom_types/custom_image.php:79
+#: includes/custom_types/custom_video.php:88
+#: includes/custom_types/custom_video.php:139
+msgid "Add or remove items"
+msgstr ""
+
+#: includes/func.php:653
+msgid "ago"
+msgstr "trước"
+
+#: includes/custom_types/custom_image.php:14
+msgid "All Banners"
+msgstr "Tất cả ảnh"
+
+#: includes/custom_types/custom_image.php:70
+#: includes/custom_types/custom_video.php:79
+#: includes/custom_types/custom_video.php:130
+msgid "All Items"
+msgstr "Tất cả"
+
+#: includes/custom_types/custom_video.php:13
+msgid "All Videos"
+msgstr "Tất cả Videos"
+
+#: includes/classes/class_customize.php:246
+msgid "Analytics Tiktok"
+msgstr ""
+
+#: includes/widgets/widget_banner_carousel.php:391
+#: includes/widgets/__/widget_elementor_posts_carousel.php:344
+#: includes/widgets/__/widget_filter_posts_carousel.php:215
+msgid "Autoplay"
+msgstr ""
+
+#: includes/woocommerce/woocommerce.php:163
+msgid "Average rating"
+msgstr ""
+
+#: includes/custom_types/custom_image.php:8
+msgid "Banner"
+msgstr "Hình ảnh"
+
+#: includes/custom_types/custom_image.php:67
+#: includes/custom_types/custom_image.php:69
+msgid "Banner Categories"
+msgstr "Chuyên mục ảnh"
+
+#: includes/custom_types/custom_image.php:68
+msgid "Banner Category"
+msgstr "Chuyên mục ảnh"
+
+#: includes/custom_types/custom_image.php:7
+#: includes/custom_types/custom_image.php:9
+#: includes/custom_types/custom_image.php:10
+#: includes/custom_types/custom_image.php:36
+msgid "Banners"
+msgstr "Hình ảnh"
+
+#: includes/widgets/__/widget_dropdown_search.php:99
+#: includes/widgets/__/widget_search.php:90
+msgid "Blog"
+msgstr "Bài viết"
+
+#: includes/classes/class_customize.php:110
+msgid "Bottom"
+msgstr "Phía dưới"
+
+#: includes/woocommerce/woocommerce.php:78
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "Trang chủ"
+
+#: includes/classes/class_customize.php:346
+#: includes/classes/class_customize.php:359
+msgid "Breadcrumb background"
+msgstr "Breadcrumb - Ảnh nền"
+
+#: includes/widgets/__/widget_breadcrumbs.php:15
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: includes/widgets/widget_banner_carousel.php:344
+#: includes/widgets/__/widget_elementor_posts.php:161
+#: includes/widgets/__/widget_elementor_posts_carousel.php:355
+msgid "Category"
+msgstr "Chuyên mục"
+
+#: includes/sidebar.php:114
+msgid "Center Header"
+msgstr "Header - Giữa"
+
+#: includes/custom_types/custom_image.php:80
+#: includes/custom_types/custom_video.php:89
+#: includes/custom_types/custom_video.php:140
+msgid "Choose from the most used"
+msgstr ""
+
+#: includes/shortcodes.php:84 includes/widgets/__/widget_dropdown_search.php:42
+msgid "Close"
+msgstr "Đóng"
+
+#: includes/widgets/widget_banner_carousel.php:15
+msgid "Collection of banners carousel"
+msgstr "Bộ sưu tập các slide ảnh"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Phản hồi đã bị tắt"
+
+#: comments.php:35
+msgctxt "comments title"
+msgid "One Response"
+msgstr "1 phản hồi"
+
+#. %s: Name of current post. Only visible to screen readers
+#: templates/page-one-column.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: includes/classes/class_customize.php:73
+msgid "Controls the add-on menu"
+msgstr ""
+
+#: includes/widgets/widget_banner_carousel.php:418
+#: includes/widgets/__/widget_dropdown_search.php:105
+#: includes/widgets/__/widget_elementor_posts.php:189
+#: includes/widgets/__/widget_elementor_posts_carousel.php:379
+#: includes/widgets/__/widget_filter_posts.php:167
+#: includes/widgets/__/widget_filter_posts_carousel.php:226
+#: includes/widgets/__/widget_filter_posts_collection.php:143
+#: includes/widgets/__/widget_filter_tabs_posts.php:187
+#: includes/widgets/__/widget_search.php:96
+#: includes/widgets/__/__widget_filter_categories.php:114
+msgid "CSS class"
+msgstr ""
+
+#: includes/classes/class_customize.php:111
+msgid "Default (left)"
+msgstr "Mặc định (left)"
+
+#: includes/widgets/widget_banner_carousel.php:340
+#: includes/widgets/__/widget_elementor_posts.php:141
+#: includes/widgets/__/widget_elementor_posts_carousel.php:303
+#: includes/widgets/__/widget_filter_posts.php:143
+#: includes/widgets/__/widget_filter_posts_carousel.php:174
+#: includes/widgets/__/widget_filter_posts_collection.php:123
+#: includes/widgets/__/widget_filter_tabs_posts.php:163
+#: includes/widgets/__/__widget_filter_categories.php:110
+msgid "Description"
+msgstr "Mô tả"
+
+#: includes/hooks.php:463
+msgid "Design by"
+msgstr "Thiết kế bởi"
+
+#: includes/widgets/__/widget_footer_logo.php:16
+msgid "Display footer logo"
+msgstr "Hiển thị ảnh logo ở chân trang"
+
+#: includes/widgets/widget_iframe.php:16
+msgid "Display iframe"
+msgstr ""
+
+#: includes/widgets/widget_recent_posts.php:166
+msgid "Display post date?"
+msgstr "Hiển thị ngày đăng?"
+
+#: includes/widgets/widget_recent_posts.php:170
+msgid "Display post thumbnail?"
+msgstr "Hiển thị ảnh đại diện?"
+
+#: includes/widgets/widget_logo.php:16
+#: includes/widgets/__/widget_offCanvasMenu.php:16
+msgid "Display site logo"
+msgstr "Hiển thị ảnh logo"
+
+#: includes/widgets/widget_stockChart.php:16
+msgid "Display Stock Chart"
+msgstr ""
+
+#: includes/widgets/__/widget_icon_box.php:15
+msgid "Display the repeater iconbox"
+msgstr "Hiển thị \"Repeater Iconbox\""
+
+#: includes/widgets/__/widget_search.php:16
+msgid "Display the search box"
+msgstr "Hiển thị khung tìm kiếm"
+
+#: includes/widgets/__/widget_dropdown_search.php:15
+msgid "Dropdown Search"
+msgstr "Modal tìm kiếm"
+
+#: includes/widgets/widget_banner_carousel.php:420
+#: includes/widgets/__/widget_elementor_posts.php:191
+#: includes/widgets/__/widget_elementor_posts_carousel.php:381
+#: includes/widgets/__/widget_filter_posts.php:169
+#: includes/widgets/__/widget_filter_posts_carousel.php:228
+#: includes/widgets/__/widget_filter_posts_collection.php:145
+#: includes/widgets/__/widget_filter_tabs_posts.php:189
+#: includes/widgets/__/widget_search.php:98
+#: includes/widgets/__/__widget_filter_categories.php:116
+msgid "Each class is separated by a space"
+msgstr "Mỗi tên cách nhau bởi 1 khoảng trắng"
+
+#: includes/custom_types/custom_image.php:18
+#: includes/custom_types/custom_image.php:75
+#: includes/custom_types/custom_video.php:17
+#: includes/custom_types/custom_video.php:84
+#: includes/custom_types/custom_video.php:135
+msgid "Edit Item"
+msgstr "Sửa thông tin"
+
+#: includes/classes/class_customize.php:209
+msgid "Facebook AppID"
+msgstr ""
+
+#: template-parts/comment/facebook.php:18
+msgid "Facebook comment"
+msgstr ""
+
+#: includes/classes/class_customize.php:222
+msgid "Facebook PageID"
+msgstr ""
+
+#: includes/widgets/widget_banner_carousel.php:399
+msgid "Fade Effect"
+msgstr "Hiệu ứng \"Fade\""
+
+#: includes/custom_types/custom_image.php:25
+#: includes/custom_types/custom_video.php:24
+msgid "Featured Image"
+msgstr "Ảnh đại diện"
+
+#: includes/custom_types/custom_image.php:33
+#: includes/custom_types/custom_video.php:32
+msgid "Filter items list"
+msgstr "Lọc danh sách bài viết"
+
+#: includes/classes/class_customize.php:373
+#: includes/classes/class_customize.php:386
+msgid "Footer background"
+msgstr "Footer - Ảnh nền"
+
+#. 1: column number
+#: includes/sidebar.php:159
+#, php-format
+msgid "Footer Column %1$d"
+msgstr "Footer - Cột %1$d"
+
+#: includes/navigation.php:18
+msgid "Footer menu"
+msgstr "Menu chân trang"
+
+#: includes/widgets/__/widget_footer_nav.php:16
+msgid "Footer menu navigation"
+msgstr ""
+
+#. 1: row number, 2: column number
+#: includes/sidebar.php:166
+#, php-format
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "Footer - Dòng %1$d - Cột %2$d"
+
+#: includes/widgets/widget_banner_carousel.php:395
+#: includes/widgets/__/widget_elementor_posts_carousel.php:336
+#: includes/widgets/__/widget_filter_posts_carousel.php:207
+msgid "freeMode"
+msgstr ""
+
+#: includes/widgets/widget_banner_carousel.php:411
+#: includes/widgets/__/widget_elementor_posts.php:186
+#: includes/widgets/__/widget_filter_posts.php:164
+#: includes/widgets/__/widget_filter_posts_collection.php:140
+#: includes/widgets/__/widget_filter_tabs_posts.php:184
+msgid "Full Width"
+msgstr "Chiều rộng tối đa"
+
+#: includes/widgets/__/widget_elementor_posts_carousel.php:340
+#: includes/widgets/__/widget_filter_posts_carousel.php:211
+msgid "Full width"
+msgstr "Chiều rộng tối đa"
+
+#: includes/classes/class_customize.php:257
+msgid "Google Tag Manager"
+msgstr ""
+
+#: includes/navigation.php:15
+msgid "Handheld Menu"
+msgstr "Menu thiết bị di động"
+
+#: includes/func.php:862
+msgid "Hashtag:"
+msgstr "Từ khóa:"
+
+#. Name of the theme
+#: includes/classes/class_customize.php:72
+msgid "HD"
+msgstr ""
+
+#: includes/admin.php:223
+msgid ""
+"HD theme is a lightweight starter theme designed to work perfectly with "
+"Elementor Page Builder plugin."
+msgstr ""
+
+#: includes/admin.php:232
+msgid ""
+"HD theme is a lightweight starter theme, based on Hello theme. We recommend "
+"you use it together with Elementor Page Builder plugin, they work perfectly "
+"together!"
+msgstr ""
+
+#: includes/widgets/widget_banner_carousel.php:365
+msgid "Height"
+msgstr "Chiều cao"
+
+#: includes/widgets/__/widget_categories.php:159
+msgid "Hide empty categories"
+msgstr "Ẩn chuyên mục rỗng"
+
+#: includes/func.php:1394
+msgid "Home"
+msgstr "Trang chủ"
+
+#: includes/classes/class_customize.php:308
+#: includes/classes/class_customize.php:319
+msgid "Hotline"
+msgstr ""
+
+#: includes/classes/class_customize.php:322
+msgid "Hotline number, support easier interaction on the phone"
+msgstr "Số hotline, hỗ trợ tương tác dễ dàng hơn trên điện thoại"
+
+#: includes/classes/class_customize.php:226
+msgid ""
+"How do I find my Facebook Page ID? <a href='https://www.facebook."
+"com/help/1503421039731588'>facebook.com/help/1503421039731588</a>"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://webhd.vn"
+msgstr ""
+
+#: includes/hooks.php:190
+msgid "If you need assistance, please leave a message here. Thanks"
+msgstr "Nếu bạn cần hỗ trợ, hãy để lại lời nhắn tại đây. Cảm ơn"
+
+#: includes/classes/class_customize.php:140
+#: includes/classes/class_customize.php:178
+msgid "Image ratio"
+msgstr "Tỉ lệ ảnh"
+
+#: includes/widgets/__/widget_elementor_posts.php:182
+#: includes/widgets/__/widget_elementor_posts_carousel.php:376
+msgid "Include children"
+msgstr "Bao gồm các bài ở chuyên mục con"
+
+#: includes/custom_types/custom_image.php:29
+#: includes/custom_types/custom_video.php:28
+msgid "Insert Item"
+msgstr ""
+
+#: includes/admin.php:234
+msgid "Install Elementor"
+msgstr ""
+
+#: includes/custom_types/custom_image.php:11
+#: includes/custom_types/custom_video.php:10
+msgid "Item Archives"
+msgstr "Kho lưu trữ"
+
+#: includes/custom_types/custom_image.php:12
+#: includes/custom_types/custom_video.php:11
+msgid "Item Attributes"
+msgstr "Thuộc tính"
+
+#: includes/custom_types/custom_image.php:31
+#: includes/custom_types/custom_image.php:85
+#: includes/custom_types/custom_video.php:30
+#: includes/custom_types/custom_video.php:94
+#: includes/custom_types/custom_video.php:145
+msgid "Items list"
+msgstr "Danh sách"
+
+#: includes/custom_types/custom_image.php:32
+#: includes/custom_types/custom_image.php:86
+#: includes/custom_types/custom_video.php:31
+#: includes/custom_types/custom_video.php:95
+#: includes/custom_types/custom_video.php:146
+msgid "Items list navigation"
+msgstr ""
+
+#: includes/woocommerce/woocommerce.php:164
+msgid "Latest"
+msgstr "Mới nhất"
+
+#: includes/admin.php:307
+msgid "Learn more about Elementor"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers.
+#: includes/func.php:712
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: includes/classes/class_customize.php:107
+msgid "Left"
+msgstr "Bên trái"
+
+#: includes/sidebar.php:88
+msgid "Left Header"
+msgstr "Header - Bên trái"
+
+#: includes/widgets/widget_banner_carousel.php:403
+#: includes/widgets/__/widget_elementor_posts_carousel.php:348
+#: includes/widgets/__/widget_filter_posts_carousel.php:219
+msgid "Loop"
+msgstr ""
+
+#: includes/widgets/__/__widget_main_nav.php:16
+msgid "Main menu navigation"
+msgstr ""
+
+#: includes/classes/class_customize.php:55
+msgid "Mobile Logo"
+msgstr "Ảnh logo di động"
+
+#: includes/widgets/__/widget_dropdown_search.php:107
+msgid "Mỗi class cách nhau bởi khoảng trắng"
+msgstr ""
+
+#: includes/widgets/widget_banner_carousel.php:383
+#: includes/widgets/__/widget_elementor_posts_carousel.php:328
+#: includes/widgets/__/widget_filter_posts_carousel.php:199
+msgid "Navigation"
+msgstr ""
+
+#: includes/custom_types/custom_image.php:17
+#: includes/custom_types/custom_video.php:16
+msgid "New Item"
+msgstr "Bài viết mới"
+
+#: includes/custom_types/custom_image.php:73
+#: includes/custom_types/custom_video.php:82
+#: includes/custom_types/custom_video.php:133
+msgid "New Item Name"
+msgstr ""
+
+#: includes/classes/class_customize.php:122
+msgid "News image"
+msgstr "Ảnh tin tức"
+
+#: includes/widgets/__/__widget_newsletter.php:15
+msgid "Newsletter Form"
+msgstr ""
+
+#: includes/custom_types/custom_image.php:84
+#: includes/custom_types/custom_video.php:93
+#: includes/custom_types/custom_video.php:144
+msgid "No items"
+msgstr "Không tìm thấy bài viết"
+
+#: includes/func.php:1487 includes/custom_types/custom_image.php:83
+#: includes/custom_types/custom_video.php:92
+#: includes/custom_types/custom_video.php:143
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+#: includes/custom_types/custom_image.php:23
+#: includes/custom_types/custom_video.php:22
+msgid "Not found"
+msgstr "Không tìm thấy"
+
+#: includes/custom_types/custom_image.php:24
+#: includes/custom_types/custom_video.php:23
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/widgets/widget_banner_carousel.php:370
+#: includes/widgets/__/widget_elementor_posts_carousel.php:307
+#: includes/widgets/__/widget_filter_posts_carousel.php:178
+msgid "Number of banner (Desktop)"
+msgstr "Số cột - Desktop"
+
+#: includes/widgets/widget_banner_carousel.php:378
+#: includes/widgets/__/widget_elementor_posts_carousel.php:315
+#: includes/widgets/__/widget_filter_posts_carousel.php:186
+msgid "Number of banner (Mobile)"
+msgstr "Số cột - Mobile"
+
+#: includes/widgets/widget_banner_carousel.php:374
+#: includes/widgets/__/widget_elementor_posts_carousel.php:311
+#: includes/widgets/__/widget_filter_posts_carousel.php:182
+msgid "Number of banner (Tablet)"
+msgstr "Số cột - Tablet"
+
+#: includes/widgets/__/widget_elementor_posts.php:149
+#: includes/widgets/__/widget_filter_posts.php:151
+#: includes/widgets/__/widget_filter_posts_collection.php:127
+#: includes/widgets/__/widget_filter_tabs_posts.php:171
+msgid "Number of columns (desktop)"
+msgstr "Số cột - Desktop"
+
+#: includes/widgets/__/widget_elementor_posts.php:157
+#: includes/widgets/__/widget_filter_posts.php:159
+#: includes/widgets/__/widget_filter_posts_collection.php:135
+#: includes/widgets/__/widget_filter_tabs_posts.php:179
+msgid "Number of columns (mobile)"
+msgstr "Số cột - Mobile"
+
+#: includes/widgets/__/widget_elementor_posts.php:153
+#: includes/widgets/__/widget_filter_posts.php:155
+#: includes/widgets/__/widget_filter_posts_collection.php:131
+#: includes/widgets/__/widget_filter_tabs_posts.php:175
+msgid "Number of columns (tablet)"
+msgstr "Số cột - Tablet"
+
+#: includes/widgets/widget_recent_posts.php:161
+#: includes/widgets/__/widget_elementor_posts.php:145
+#: includes/widgets/__/widget_elementor_posts_carousel.php:323
+#: includes/widgets/__/widget_filter_posts.php:147
+#: includes/widgets/__/widget_filter_posts_carousel.php:194
+#: includes/widgets/__/widget_filter_tabs_posts.php:167
+#: includes/widgets/__home/widget_hot_posts.php:124
+msgid "Number of posts to show"
+msgstr "Số lượng bài viết hiển thị"
+
+#: includes/widgets/__/widget_elementor_posts_carousel.php:319
+#: includes/widgets/__/widget_filter_posts_carousel.php:190
+msgid "Number of row"
+msgstr "Số dòng"
+
+#: includes/classes/class_customize.php:84
+msgid "offCanvas Menu"
+msgstr ""
+
+#: includes/classes/class_customize.php:102
+msgid "offCanvas position"
+msgstr ""
+
+#. Name of the template
+msgid "One Column"
+msgstr ""
+
+#: includes/woocommerce/woocommerce.php:161
+msgid "Ordering"
+msgstr "Sắp xếp"
+
+#: includes/func.php:1494
+msgid "page"
+msgstr "trang"
+
+#: includes/sidebar.php:140
+#| msgid "Home Sidebar"
+msgid "Page Sidebar"
+msgstr "Sidebar - Trang"
+
+#: templates/page-one-column.php:49
+msgid "Pages:"
+msgstr ""
+
+#: includes/widgets/widget_banner_carousel.php:387
+#: includes/widgets/__/widget_elementor_posts_carousel.php:332
+#: includes/widgets/__/widget_filter_posts_carousel.php:203
+msgid "Pagination"
+msgstr "Phân trang"
+
+#: includes/custom_types/custom_image.php:71
+#: includes/custom_types/custom_video.php:80
+#: includes/custom_types/custom_video.php:131
+msgid "Parent Item"
+msgstr ""
+
+#: includes/custom_types/custom_image.php:13
+#: includes/custom_types/custom_image.php:72
+#: includes/custom_types/custom_video.php:12
+#: includes/custom_types/custom_video.php:81
+#: includes/custom_types/custom_video.php:132
+msgid "Parent Item:"
+msgstr ""
+
+#. %1$s: link to menus, %2$s: link to customize.
+#: includes/func.php:620
+#, php-format
+msgid ""
+"Please assign a menu to the primary menu location under %1$s or %2$s the "
+"design."
+msgstr ""
+
+#: includes/custom_types/custom_image.php:81
+#: includes/custom_types/custom_video.php:90
+#: includes/custom_types/custom_video.php:141
+msgid "Popular Items"
+msgstr "Bài viết phổ biến"
+
+#: includes/woocommerce/woocommerce.php:162
+msgid "Popularity"
+msgstr "Phổ biến"
+
+#: includes/sidebar.php:198
+msgid "Post Sidebar"
+msgstr "Sidebar - Bài viết"
+
+#: includes/custom_types/custom_image.php:37
+#: includes/custom_types/custom_video.php:36
+msgid "Post Type Description"
+msgstr ""
+
+#: includes/woocommerce/woocommerce.php:166
+msgid "Price: high to low"
+msgstr "Giá - giảm dần"
+
+#: includes/woocommerce/woocommerce.php:165
+msgid "Price: low to high"
+msgstr "Giá - tăng dần"
+
+#: includes/navigation.php:14
+msgid "Primary Menu"
+msgstr "Menu chính"
+
+#: template-parts/header/navigation-primary.php:14
+msgid "Primary Navigation"
+msgstr ""
+
+#: includes/navigation.php:17
+msgid "Privacy Policy menu"
+msgstr ""
+
+#: includes/classes/class_customize.php:149
+msgid "Ratio default (16:9)"
+msgstr "Tỉ lệ mặc định (16:9)"
+
+#: includes/classes/class_customize.php:187
+msgid "Ratio default (5:3)"
+msgstr "Tỉ lệ mặc định (5:3)"
+
+#: includes/widgets/widget_banner_carousel.php:117
+#: template-parts/post/loop-filter.php:29
+#: template-parts/post/loop-filter.php:29
+msgid "Read more"
+msgstr "Chi tiết"
+
+#: includes/custom_types/custom_image.php:27
+#: includes/custom_types/custom_video.php:26
+msgid "Remove featured image"
+msgstr "Gỡ ảnh đại diện"
+
+#: includes/classes/class_customize.php:43
+msgid "Retina logo"
+msgstr ""
+
+#: includes/classes/class_customize.php:108
+msgid "Right"
+msgstr "Bên phải"
+
+#: includes/sidebar.php:101
+msgid "Right Header"
+msgstr "Header - Bên phải"
+
+#: includes/classes/class_customize.php:44
+msgid ""
+"Scales the logo to half its uploaded size, making it sharp on high-res "
+"screens."
+msgstr ""
+
+#: includes/hooks.php:534
+msgid "Scroll back to top"
+msgstr "Cuộn lên đầu trang"
+
+#: includes/widgets/__/widget_elementor_posts_carousel.php:352
+#: includes/widgets/__/widget_filter_posts_carousel.php:223
+msgid "Scrollbar"
+msgstr "Thanh cuộn"
+
+#: includes/hooks.php:96 includes/shortcodes.php:81 includes/shortcodes.php:119
+#: includes/widgets/__/widget_dropdown_search.php:39
+#: includes/widgets/__/widget_search.php:44
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: includes/shortcodes.php:83 includes/shortcodes.php:121
+#: includes/widgets/__/widget_dropdown_search.php:41
+#: includes/widgets/__/widget_search.php:46
+msgid "Search ..."
+msgstr "Tìm kiếm..."
+
+#: includes/shortcodes.php:120 includes/widgets/__/widget_search.php:45
+msgid "Search for"
+msgstr "Tìm kiếm cho"
+
+#: includes/custom_types/custom_image.php:22
+#: includes/custom_types/custom_image.php:82
+#: includes/custom_types/custom_video.php:21
+#: includes/custom_types/custom_video.php:91
+#: includes/custom_types/custom_video.php:142
+msgid "Search Items"
+msgstr "Tìm kiếm"
+
+#: includes/func.php:1446
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm: %s"
+
+#: includes/widgets/__/widget_dropdown_search.php:102
+#: includes/widgets/__/widget_search.php:93
+msgid "Select a search type, news, video or product"
+msgstr ""
+
+#: includes/custom_types/custom_image.php:78
+#: includes/custom_types/custom_video.php:87
+#: includes/custom_types/custom_video.php:138
+msgid "Separate items with commas"
+msgstr "Phân tách các mục bằng dấu phẩy"
+
+#: includes/custom_types/custom_image.php:26
+#: includes/custom_types/custom_video.php:25
+msgid "Set featured image"
+msgstr "Đặt ảnh đại diện"
+
+#: includes/woocommerce/woocommerce.php:28
+msgid "Share"
+msgstr "Chia sẻ"
+
+#: includes/widgets/__/widget_categories.php:156
+msgid "Show hierarchy"
+msgstr "Hiển thị thứ bậc"
+
+#: includes/widgets/__/widget_categories.php:153
+msgid "Show post counts"
+msgstr "Hiển thị số bài viết"
+
+#: includes/hooks.php:308
+msgid "Skip to navigation"
+msgstr ""
+
+#: includes/hooks.php:309
+msgid "Skip to the content"
+msgstr ""
+
+#: includes/widgets/widget_banner_carousel.php:414
+msgid "slides Group"
+msgstr "Gom nhóm"
+
+#: includes/classes/class_customize.php:198
+msgid "Social"
+msgstr "Mạng xã hội"
+
+#: includes/navigation.php:16
+msgid "Social menu"
+msgstr ""
+
+#: includes/widgets/__/widget_social_nav.php:15
+msgid "Social menu navigation"
+msgstr ""
+
+#: includes/func.php:1473
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#. 1: SVG icon. 2: posted in label, only visible to screen readers. 3: list of tags.
+#: includes/func.php:841
+msgid "Tags"
+msgstr "Từ khóa"
+
+#: includes/admin.php:304
+msgid "Thanks for installing HD Theme!"
+msgstr ""
+
+#: includes/widgets/widget_banner_carousel.php:362
+msgid "The photo category is the place where the images are displayed"
+msgstr ""
+
+#: includes/admin.php:79 includes/admin.php:151
+msgid "Thumb"
+msgstr "Ảnh đại diện"
+
+#: includes/widgets/widget_banner_carousel.php:336
+#: includes/widgets/widget_iframe.php:73 includes/widgets/widget_logo.php:64
+#: includes/widgets/widget_recent_posts.php:157
+#: includes/widgets/widget_stockChart.php:78
+#: includes/widgets/__/widget_breadcrumbs.php:62
+#: includes/widgets/__/widget_categories.php:148
+#: includes/widgets/__/widget_dropdown_search.php:93
+#: includes/widgets/__/widget_elementor_posts.php:137
+#: includes/widgets/__/widget_elementor_posts_carousel.php:299
+#: includes/widgets/__/widget_filter_posts.php:139
+#: includes/widgets/__/widget_filter_posts_carousel.php:170
+#: includes/widgets/__/widget_filter_posts_collection.php:119
+#: includes/widgets/__/widget_filter_tabs_posts.php:159
+#: includes/widgets/__/widget_footer_logo.php:62
+#: includes/widgets/__/widget_footer_nav.php:62
+#: includes/widgets/__/widget_icon_box.php:95
+#: includes/widgets/__/widget_offCanvasMenu.php:62
+#: includes/widgets/__/widget_search.php:84
+#: includes/widgets/__/widget_social_nav.php:62
+#: includes/widgets/__/widget_top_nav.php:61
+#: includes/widgets/__/__widget_filter_categories.php:106
+#: includes/widgets/__/__widget_main_nav.php:65
+#: includes/widgets/__/__widget_newsletter.php:79
+#: includes/widgets/__home/widget_hot_posts.php:120
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: includes/classes/class_customize.php:109
+msgid "Top"
+msgstr ""
+
+#: includes/sidebar.php:61
+msgid "Top Left Header"
+msgstr "Top Header - Bên trái"
+
+#: includes/navigation.php:13
+msgid "Top menu"
+msgstr ""
+
+#: includes/widgets/__/widget_top_nav.php:15
+msgid "Top menu navigation"
+msgstr ""
+
+#: includes/sidebar.php:74
+msgid "Top Right Header"
+msgstr "Top Header - Bên phải"
+
+#: includes/widgets/__/widget_dropdown_search.php:97
+#: includes/widgets/__/widget_search.php:88
+msgid "Type the search"
+msgstr "Nhập từ khóa tìm kiếm"
+
+#: includes/custom_types/custom_image.php:19
+#: includes/custom_types/custom_image.php:76
+#: includes/custom_types/custom_video.php:18
+#: includes/custom_types/custom_video.php:85
+#: includes/custom_types/custom_video.php:136
+msgid "Update Item"
+msgstr "Cập nhật"
+
+#: includes/custom_types/custom_image.php:30
+#: includes/custom_types/custom_video.php:29
+msgid "Uploaded to this item"
+msgstr ""
+
+#: includes/custom_types/custom_image.php:28
+#: includes/custom_types/custom_video.php:27
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/widgets/widget_banner_carousel.php:407
+msgid "Vertical"
+msgstr "Theo chiều dọc"
+
+#: includes/custom_types/custom_video.php:7
+#: includes/custom_types/custom_video.php:9
+#: includes/widgets/__/widget_dropdown_search.php:100
+#: includes/widgets/__/widget_search.php:91
+msgid "Video"
+msgstr ""
+
+#: includes/custom_types/custom_video.php:76
+#: includes/custom_types/custom_video.php:78
+msgid "Video Categories"
+msgstr "Chuyên mục Video"
+
+#: includes/custom_types/custom_video.php:77
+msgid "Video Category"
+msgstr "Chuyên mục Video"
+
+#: includes/classes/class_customize.php:160
+msgid "Video image"
+msgstr "Ảnh Video"
+
+#: includes/filters.php:210
+msgid "Video Page"
+msgstr "Video trang"
+
+#: includes/custom_types/custom_video.php:128
+msgid "Video Tag"
+msgstr "Từ khóa video"
+
+#: includes/custom_types/custom_video.php:127
+#: includes/custom_types/custom_video.php:129
+msgid "Video Tags"
+msgstr "Từ khóa video"
+
+#: includes/custom_types/custom_video.php:6
+#: includes/custom_types/custom_video.php:8
+#: includes/custom_types/custom_video.php:35
+msgid "Videos"
+msgstr ""
+
+#: includes/widgets/widget_recent_posts.php:121
+#: includes/widgets/__/widget_filter_posts.php:75
+#: includes/widgets/__/widget_filter_posts.php:75
+#: includes/widgets/__/widget_filter_posts_carousel.php:84
+#: includes/widgets/__/widget_filter_posts_carousel.php:84
+#: includes/widgets/__/widget_filter_posts_collection.php:57
+#: includes/widgets/__/widget_filter_posts_collection.php:57
+#: includes/widgets/__/widget_filter_tabs_posts.php:56
+#: includes/widgets/__/widget_filter_tabs_posts.php:56
+msgid "View all"
+msgstr "Xem tất cả"
+
+#: includes/custom_types/custom_image.php:20
+#: includes/custom_types/custom_image.php:77
+#: includes/custom_types/custom_video.php:19
+#: includes/custom_types/custom_video.php:86
+#: includes/custom_types/custom_video.php:137
+msgid "View Item"
+msgstr "Xem"
+
+#: includes/custom_types/custom_image.php:21
+#: includes/custom_types/custom_video.php:20
+msgid "View Items"
+msgstr "Xem"
+
+#: includes/widgets/widget_banner_carousel.php:19
+msgid "W - Banners Carousel"
+msgstr "W - Carousel - Ảnh"
+
+#: includes/widgets/__/widget_breadcrumbs.php:19
+msgid "W - Breadcrumbs"
+msgstr "W - Breadcrumbs"
+
+#: includes/widgets/__/widget_categories.php:31
+msgid "W - Categories"
+msgstr "W - Chuyên mục"
+
+#. Name of the template
+msgid "W - Contact"
+msgstr ""
+
+#: includes/widgets/__/widget_dropdown_search.php:19
+msgid "W - Dropdown Search"
+msgstr "W - Modal Tìm kiếm"
+
+#: includes/widgets/__/widget_elementor_posts.php:18
+msgid "W - Elementor Posts"
+msgstr "W - Elementor - Bài viết"
+
+#: includes/widgets/__/widget_elementor_posts_carousel.php:18
+msgid "W - Elementor Posts Carousel"
+msgstr "W - Elementor Carousel - Bài viết"
+
+#: includes/widgets/__/__widget_filter_categories.php:20
+msgid "W - Filter Categories"
+msgstr "W - Lọc chuyên mục"
+
+#: includes/widgets/__/widget_filter_posts.php:18
+msgid "W - Filter Posts"
+msgstr "W - Lọc bài viết"
+
+#: includes/widgets/__/widget_filter_posts_carousel.php:18
+msgid "W - Filter Posts Carousel"
+msgstr "W - Carousel - Lọc bài viết"
+
+#: includes/widgets/__/widget_filter_posts_collection.php:18
+msgid "W - Filter Posts Collection"
+msgstr "W - Lọc bài viết nổi bật"
+
+#: includes/widgets/__/widget_filter_tabs_posts.php:18
+msgid "W - Filter Tabs Posts"
+msgstr "W - Lọc bài viết dạng Tabs"
+
+#: includes/widgets/__/widget_footer_logo.php:20
+msgid "W - Footer Logo"
+msgstr "W - Logo chân trang"
+
+#: includes/widgets/__/widget_footer_nav.php:20
+msgid "W - Footer Navigation"
+msgstr "W - Thanh điều hướng chân trang"
+
+#. Name of the template
+msgid "W - Homepage"
+msgstr "W - Trang chủ"
+
+#: includes/widgets/__home/widget_hot_posts.php:18
+msgid "W - Hot Posts"
+msgstr ""
+
+#: includes/widgets/__/widget_icon_box.php:19
+msgid "W - IconBox"
+msgstr "W - IconBox"
+
+#: includes/widgets/widget_iframe.php:20
+msgid "W - Iframe"
+msgstr ""
+
+#. Name of the template
+#, fuzzy
+#| msgid "W - Introduction Page"
+msgid "W - Introduction"
+msgstr "W - Trang giới thiệu"
+
+#: includes/widgets/widget_logo.php:20
+msgid "W - Logo"
+msgstr "W - Logo"
+
+#: includes/widgets/__/__widget_main_nav.php:20
+msgid "W - Main Navigation"
+msgstr "W - Thanh điều hướng chính"
+
+#: includes/widgets/__/__widget_newsletter.php:19
+msgid "W - Newsletter"
+msgstr "W - Newsletter (CF7)"
+
+#: includes/widgets/__/widget_offCanvasMenu.php:20
+msgid "W - offCanvasMenu"
+msgstr "W - offCanvas"
+
+#: includes/widgets/widget_recent_posts.php:21
+msgid "W - Recent Posts"
+msgstr "W - Bài viết mới"
+
+#: includes/widgets/__/widget_search.php:20
+msgid "W - Search"
+msgstr "W - Tìm kiếm"
+
+#: includes/widgets/__/widget_social_nav.php:19
+msgid "W - Social Navigation"
+msgstr "W - Thanh điều hướng MXH"
+
+#: includes/widgets/widget_stockChart.php:20
+msgid "W - Stock Chart"
+msgstr ""
+
+#: includes/widgets/__/widget_top_nav.php:19
+msgid "W - Top Navigation"
+msgstr "W - Thanh điều hướng đầu trang"
+
+#. Author of the theme
+msgid "WEBHD team"
+msgstr ""
+
+#. Description of the theme
+msgid "WEBHD Wordpress Theme."
+msgstr ""
+
+#. 1: column number, 2: row number
+#: includes/sidebar.php:169
+#, php-format
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr ""
+
+#. 1: column number
+#: includes/sidebar.php:162
+#, php-format
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr ""
+
+#: includes/sidebar.php:89 includes/sidebar.php:102 includes/sidebar.php:115
+msgid "Widgets added here will appear in header."
+msgstr ""
+
+#: includes/sidebar.php:141
+msgid "Widgets added here will appear in pages sidebar."
+msgstr ""
+
+#: includes/sidebar.php:199
+msgid "Widgets added here will appear in posts sidebar."
+msgstr ""
+
+#: includes/sidebar.php:62
+msgid "Widgets added here will appear in top left header."
+msgstr ""
+
+#: includes/sidebar.php:75
+msgid "Widgets added here will appear in top right header."
+msgstr ""
+
+#: includes/classes/class_customize.php:213
+msgid ""
+"You can do this at <a href='https://developers.facebook.com/apps/'>"
+"developers.facebook.com/apps</a>"
+msgstr ""
+
+#: includes/classes/class_customize.php:272
+msgid ""
+"You can do this at <a href='https://developers.zalo.me/docs/'>developers."
+"zalo.me/docs/</a>"
+msgstr ""
+
+#: includes/classes/class_customize.php:285
+msgid ""
+"You can do this at <a href='https://oa.zalo.me/manage/oa?option=create'>oa."
+"zalo.me/manage/oa?option=create</a>"
+msgstr ""
+
+#: includes/widgets/__/widget_elementor_posts.php:14
+msgid "Your site&#8217;s elementor posts by category."
+msgstr "Lọc bài viết theo chuyên mục, tương thích với Elementor"
+
+#: includes/widgets/__/widget_filter_posts_collection.php:14
+msgid "Your site&#8217;s filter collection posts."
+msgstr "Lọc danh sách bài viết nổi bật"
+
+#: includes/widgets/__/widget_filter_posts.php:14
+#: includes/widgets/__/widget_filter_tabs_posts.php:14
+msgid "Your site&#8217;s filter posts by category."
+msgstr "Lọc bài viết theo chuyên mục"
+
+#: includes/widgets/__/widget_elementor_posts_carousel.php:14
+#: includes/widgets/__/widget_filter_posts_carousel.php:14
+msgid "Your site&#8217;s filter posts carousel by category."
+msgstr ""
+"Lọc các bài viết theo chuyên mục, tương thích với Elementor, hiển thị dạng "
+"Carousel"
+
+#: includes/widgets/__home/widget_hot_posts.php:14
+msgid "Your site&#8217;s hot posts by category."
+msgstr ""
+
+#: includes/widgets/widget_recent_posts.php:17
+msgid "Your site&#8217;s most sidebar recent Posts."
+msgstr "Bài đăng gần đây nhất ở cạnh bên."
+
+#: includes/classes/class_customize.php:294
+msgid "Youtube channel"
+msgstr "Kênh Youtube"
+
+#: includes/func.php:333
+msgid "YouTube video player"
+msgstr "Trình xem ảnh Youtube"
+
+#: includes/classes/class_customize.php:298
+msgid ""
+"YouTube's Official Channel helps you discover what's new & trending globally."
+" Watch must-see videos, from music to culture to Internet phenomena."
+msgstr ""
+"Kênh chính thức của YouTube giúp bạn khám phá nội dung mới và đang thịnh "
+"hành trên toàn cầu. Xem các video phải xem, từ âm nhạc đến văn hóa cho đến "
+"các hiện tượng Internet."
+
+#: includes/classes/class_customize.php:268
+msgid "Zalo AppID"
+msgstr ""
+
+#: template-parts/comment/zalo.php:18
+msgid "Zalo comment"
+msgstr ""
+
+#: includes/classes/class_customize.php:332
+msgid "Zalo Hotline"
+msgstr ""
+
+#: includes/classes/class_customize.php:336
+msgid "Zalo Hotline number, support easier interaction on the zalo"
+msgstr "Số Hotline Zalo, hỗ trợ tương tác dễ dàng hơn trên zalo"
+
+#: includes/classes/class_customize.php:281
+msgid "Zalo OAID"
+msgstr ""

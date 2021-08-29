@@ -1,0 +1,489 @@
+
+@mixin not-xxdesktop {
+	@media (max-width: #{$xxdesktop-width - rem-calc(0.2)}) { /*1440px*/
+		@content;
+	}
+}
+@mixin not-xdesktop {
+	@media (max-width: #{$xdesktop-width - rem-calc(0.2)}) { /*1200px*/
+		@content;
+	}
+}
+@mixin not-desktop {
+	@media (max-width: #{$desktop-width - rem-calc(0.2)}) { /*1024px*/
+		@content;
+	}
+}
+@mixin wp-mobile {
+	@media (max-width: #{$wp-mobile-width}) { /*782px*/
+		@content;
+	}
+}
+@mixin mobile {
+	@media (max-width: #{$mobile-width - rem-calc(0.2)}) { /*640px*/
+		@content;
+	}
+}
+@mixin mobile-portrait {
+	@media (max-width: #{$mobile-width - rem-calc(0.2)}) and (orientation: portrait) {
+		@content;
+	}
+}
+@mixin mobile-landscape {
+	@media (max-width: #{$mobile-width - rem-calc(0.2)}) and (orientation: landscape) {
+		@content;
+	}
+}
+@mixin not-mobile {
+	@media (min-width: #{$mobile-width}) { /*640px*/
+		@content;
+	}
+}
+@mixin tablet {
+	@media (min-width: #{$mobile-width}) and (max-width: #{$desktop-width - rem-calc(0.2)}) {
+		@content;
+	}
+}
+@mixin wp-desktop {
+	@media (min-width: #{$wp-mobile-width + rem-calc(1)}) { /*783px*/
+		@content;
+	}
+}
+@mixin desktop {
+	@media (min-width: #{$desktop-width}) { /*1024px*/
+		@content;
+	}
+}
+@mixin xdesktop {
+	@media (min-width: #{$xdesktop-width}) { /*1200px*/
+		@content;
+	}
+}
+@mixin xxdesktop {
+	@media (min-width: #{$xxdesktop-width}) { /*1440px*/
+		@content;
+	}
+}
+
+/*// substitute for your image dimensions
+  @include responsive-bg-ratio(204, 81);
+*/
+@mixin responsive-bg-ratio($image-width: 204, $image-height: 81) {
+	background-size: cover;
+	height: 0;
+	padding-bottom: percentage($image-height / $image-width);
+	display: block;
+}
+@mixin responsive-image($width: 100%) {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	transition: all 0.3s ease-in-out;
+	width: $width;
+	& > img, & > source {
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		height: 100% !important;
+		object-fit: cover;
+		object-position: center;
+		max-width: unset;
+		min-width: 100%;
+	}
+}
+@mixin responsive-image-scale($scale: 1.11) {
+	transform: scale(1.0001);
+	will-change: transform;
+	transition: transform 0.8s cubic-bezier(.25, .46, .45, .94);
+	&:hover {
+		transform: scale($scale);
+	}
+}
+@mixin responsive-image-auto {
+	& > img, & > .img, & > source {
+		height: auto !important;
+		width: auto;
+		object-fit: contain;
+		object-position: center;
+		max-width: 100%;
+		max-height: 100%;
+		min-width: 90%;
+		min-height: 90%;
+	}
+}
+@mixin responsive-image-ratio($ratio-width: 3, $ratio-height: 2, $width: 100%) {
+	height: 0;
+	padding-bottom: #{$width * $ratio-height / $ratio-width};
+	aspect-ratio: auto #{$ratio-width} / #{$ratio-height};
+	object-fit: scale-down; /*ios*/
+}
+@mixin grid-gutter {
+	margin-right: -15px;
+	margin-left: -15px;
+	&>.col, &>.cell, &>[class*=col-], &>li {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+@mixin gutter-right {
+	position: absolute;
+	right: 15px;
+}
+@mixin gutter-left {
+	position: absolute;
+	left: 15px;
+}
+@mixin color-lighten($color, $amount: 12%) {
+	color: $color;
+	&:hover, &:active, &:focus {
+		color: lighten($color, $amount);
+	}
+}
+@mixin color-darken($color, $amount: 12%) {
+	color: $color;
+	&:hover, &:active, &:focus {
+		color: darken($color, $amount);
+	}
+}
+@mixin fill-lighten($color, $amount: 12%) {
+	fill: $color;
+	&:hover, &:active, &:focus {
+		fill: lighten($color, $amount);
+	}
+}
+@mixin fill-darken($color, $amount: 12%) {
+	fill: $color;
+	&:hover, &:active, &:focus {
+		fill: darken($color, $amount);
+	}
+}
+@mixin bg-color-lighten($color, $amount: 12%) {
+	background-color: $color;
+	&:hover {
+		background-color: lighten($color, $amount);
+	}
+}
+@mixin bg-color-darken($color, $amount: 12%) {
+	background-color: $color;
+	&:hover {
+		background-color: darken($color, $amount);
+	}
+}
+@mixin bg-gradient($angle: 135deg, $color: $global-color3, $amount: 12%) {
+	background: linear-gradient($angle, $color 0%, adjust-hue($color, $amount) 100%);
+}
+@mixin bg-gradient-hover($angle: 135deg, $color: $global-color3, $amount: 12%) {
+	transition: background .25s ease-out,color .25s ease-out;
+	&:hover {
+		background: linear-gradient($angle, darken($color, 5) 0%, adjust-hue(darken($color, 5), $amount) 100%);
+	}
+}
+@mixin linear-gradient($angle: 90deg, $color1: $global-color1, $color2: $global-color3) {
+	background: linear-gradient($angle, $color1 0%, $color2 100%);
+}
+@mixin box_shadow($color: $global-color3, $transparentize_amount: 0.8) {
+	transition: all .3s ease;
+	box-shadow: 6px 3px 18px transparentize($color, $transparentize_amount);
+	&:hover {
+		transform: translateY(-1px);
+		box-shadow: 0 1px 1px transparentize($color, 0.95), 0 2px 2px transparentize($color, 0.95), 0 4px 4px transparentize($color, 0.95), 0 8px 8px transparentize($color, 0.95), 0 16px 16px transparentize($color, 0.95);
+	}
+}
+@mixin text_shadow($color: $global-color3, $transparentize_amount: 0.8) {
+	text-shadow: 6px 3px 18px transparentize($color, $transparentize_amount);
+}
+@mixin box_shadow_small($color: $global-color3, $transparentize_amount: 0.8) {
+	box-shadow: 3px 1px 12px transparentize($color, $transparentize_amount);
+}
+@mixin text_shadow_small($color: $global-color3, $transparentize_amount: 0.8) {
+	text-shadow: 3px 1px 12px transparentize($color, $transparentize_amount);
+}
+@mixin box($width: 300px, $height: $width) {
+	width: $width;
+	height: $height;
+}
+@mixin flex-column {
+	display: flex;
+	flex-direction: column;
+}
+@mixin flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@mixin flex-center-column {
+	@include flex-center;
+	flex-direction: column;
+}
+@mixin flex-center-vertical {
+	display: flex;
+	align-items: center;
+}
+@mixin flex-center-horizontal {
+	display: flex;
+	justify-content: center;
+}
+@mixin gradient-text($angle: 135deg, $color: $global-color3, $amount: 10%) {
+	color: transparent;
+	background: -webkit-linear-gradient($angle, $color, adjust-hue($color, $amount));
+	background: linear-gradient($angle, $color, adjust-hue($color, $amount));
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	display: inline-block;
+}
+@mixin gradient-text2($angle: 135deg, $color1: $global-color3, $color2: $global-color1) {
+	color: transparent;
+	background-image: -webkit-linear-gradient(158deg, $color1 0%, $color2 100%);
+	background-image: linear-gradient(158deg, $color1 0%, $color2 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+}
+@mixin cover-background {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+@mixin fade($type: "show") {
+	@if $type== "hide" {
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility 0.4s, opacity 0.4s;
+	} @else if $type== "show" {
+		visibility: visible;
+		opacity: 1;
+		transition: visibility 0.4s, opacity 0.4s;
+	}
+}
+@mixin clearfix {
+	&::after, &::before {
+		display: table;
+		content: '';
+		flex-basis: 0;
+		-webkit-box-ordinal-group: 2;
+		order: 1;
+	}
+	&::after {
+		clear: both;
+	}
+}
+@mixin centering-elements($horizontal: true, $vertical: true) {
+	position: absolute;
+	@if $horizontal and $vertical {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	} @else if $horizontal {
+		left: 50%;
+		transform: translate(-50%, 0);
+	} @else if $vertical {
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+}
+@mixin grid-padding($top: true, $right: true, $bottom: true, $left: true) {
+	@if $top {
+		padding-top: 15px;
+	}
+	@if $right {
+		padding-right: 15px;
+	}
+	@if $bottom {
+		padding-bottom: 15px;
+	}
+	@if $left {
+		padding-left: 15px;
+	}
+}
+@mixin grid-margin($top: true, $right: true, $bottom: true, $left: true) {
+	@if $top {
+		margin-top: 15px;
+	}
+	@if $right {
+		margin-right: 15px;
+	}
+	@if $bottom {
+		margin-bottom: 15px;
+	}
+	@if $left {
+		margin-left: 15px;
+	}
+}
+@mixin absolute-full {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+@mixin fixed-full {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+@mixin data-overlay {
+	position: relative;
+	&::before {
+		content: '';
+		@include absolute-full;
+		z-index: -1;
+	}
+}
+@mixin grid-column($n: 1) {
+	@if ($n < 1) {
+		flex: 0 0 percentage($n);
+		max-width: percentage($n);
+	} @else {
+		flex: 0 0 percentage(1 / $n);
+		max-width: percentage(1 / $n);
+	}
+}
+@mixin line-clamp($n: 2) {
+	@include webkit-line-clamp($n);
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+@mixin webkit-line-clamp($n: 2) {
+	-webkit-line-clamp: $n;
+}
+@mixin after-overlay {
+	position: relative;
+	&::after {
+		content: '';
+		opacity: 0;
+		@include absolute-full;
+	}
+}
+@mixin gradient-animation {
+   background-size: 500% 500%;
+   -webkit-animation: gradient-animation 30s ease infinite;
+   animation: gradient-animation 30s ease infinite;
+}
+@mixin image-animation {
+	-webkit-animation: imageAnimation 30s ease infinite;
+	animation: imageAnimation 30s ease infinite;
+	backface-visibility: hidden;
+}
+@mixin image-animation2 {
+	-webkit-animation: imageAnimation2 30s ease infinite;
+	animation: imageAnimation2 30s ease infinite;
+	backface-visibility: hidden;
+}
+@mixin grid-extra {
+	max-width: $global-width-extra;
+}
+@mixin grid-small {
+	max-width: $global-width-small;
+}
+@mixin button-arrow {
+	overflow-wrap: break-word;
+	&::after {
+		content: '';
+		display: inline-block;
+		margin: 0 0 0 14px;
+		height: 16px;
+		width: 16px;
+		background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3E%3Cpath d='M11.2 2.8a.8.8 0 00-1.3 1L12.6 7h-11a.8.8 0 100 1.7h11L10 12a.8.8 0 101.3 1L15 8.6a.8.8 0 000-1.2l-3.8-4.5z'/%3E%3C/svg%3E");
+		vertical-align: -10%;
+	}
+}
+@mixin button-scale {
+	transition: all .3s ease-out .07s;
+	&:hover {
+		transition: all .3s ease-out .07s;
+		transform: scale(0.96);
+	}
+}
+@mixin right-fullwidth {
+	padding-left: 15px;
+	margin: 0 0 0 auto;
+	max-width: calc(50% + 600px);
+	@include not-xxdesktop {
+		max-width: calc(50% + 570px);
+	}
+}
+@mixin left-fullwidth {
+	padding-right: 15px;
+	margin: 0 auto 0 0;
+	max-width: calc(50% + 600px);
+	@include not-xxdesktop {
+		max-width: calc(50% + 570px);
+	}
+}
+@mixin underline($color: $dark-gray) {
+	position: relative;
+	display: inline-block;
+	&::before {
+		content: '';
+		display: inline-block;
+		width: 100%;
+		height: 1px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-color: $color;
+		transform-origin: right center;
+		transform: scaleX(0);
+		transition: transform 0.2s cubic-bezier(1,0,0,1);
+	}
+	&:hover {
+		&::before {
+			transform-origin: left center;
+			transform: scaleX(1);
+		}
+	}
+}
+@mixin grid-container {
+	max-width: $global-width;
+	@include not-xxdesktop {
+		max-width: $global-medium-width;
+	}
+}
+@mixin btn-effect1($color1: $gray, $color2: $global-color3) {
+	position: relative;
+	border: none;
+	box-shadow: inset 0 0 0 2px $color1;
+	&::before, &::after {
+		-webkit-box-sizing: inherit;
+		box-sizing: inherit;
+		content: '';
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		width: 100%;
+		border-radius: 99px;
+	}
+	&::before {
+		border-bottom: 2px solid $color1;
+		border-top: 2px solid $color1;
+		-webkit-transform: scale3d(0,1,1);
+		transform: scale3d(0,1,1);
+	}
+	&::after {
+		border-left: 2px solid $color1;
+		border-right: 2px solid $color1;
+		-webkit-transform: scale3d(1,0,1);
+		transform: scale3d(1,0,1);
+	}
+	&:hover {
+		&::after, &::before {
+			-webkit-transform: scale3d(1,1,1);
+			transform: scale3d(1,1,1);
+			-webkit-transition: -webkit-transform .5s;
+			transition: transform .5s;
+			border-color: $color2;
+			color: $color2;
+		}
+	}
+}

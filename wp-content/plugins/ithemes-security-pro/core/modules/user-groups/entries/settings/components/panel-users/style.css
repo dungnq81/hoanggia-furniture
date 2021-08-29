@@ -1,0 +1,7 @@
+.itsec-user-group-panel-users__selected span {
+  padding-right: .5em; }
+
+.components-itsec-async-select-control__input input {
+  min-height: 0; }
+  .components-itsec-async-select-control__input input:focus {
+    box-shadow: none; }
